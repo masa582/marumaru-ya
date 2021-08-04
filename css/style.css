@@ -1,0 +1,487 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* change border colour to suit your needs */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+
+/* ここから  開始　　　　　ここから  開始　　　　　　　　　　　*/
+
+.header {
+    height: 40px;
+    /* background: #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+
+}
+.header-wrap {
+    height: 100px;
+}
+.logo {
+    /* margin: 10px; */
+    
+    height: 30px;
+    width: 150px;
+}
+.header-nav ul {
+    display: flex;
+}
+.header-nav li {
+    margin-right: 15px;
+    font-size: 14px;
+    font-family: "NotoSansCJKjp";
+    color: #65483A;
+}
+.header-nav a {
+    color: #65483A;
+    text-decoration: none;
+}
+
+/* ここからFIrstview の範囲 */
+.firstview {
+    position: relative;
+    height: 800px;
+    background-color: saddlebrown;
+    margin: 0 0 100px 0;
+}
+.firsview_parent {
+    height: 1000px;
+}
+.img_1 {
+    position: absolute;
+    display: block;
+    right: 0px;
+    width: 75%;
+    height: 600px;
+    /* height: auto; */
+    
+    margin: 0 0 0 auto;
+    z-index: 2;
+}
+.firstview_message {
+    display: block;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    font-size: 20px;
+    /* z-index: 5; */
+}
+.absolute_1 {
+    position: absolute;
+    /* width: 700px; */
+    
+    height: 300px;
+    width: auto;
+    background-color: rgb(228, 208, 225);
+    top: 100px;
+    left: 200px;
+    z-index: 3;
+}
+.absolute {
+    font-size: 50px;
+    color: rgb(179, 22, 103);
+    /* font-family: 'Quicksand', sans-serif; */
+    
+    font-family: 'Short Stack', cursive;
+}
+.message {
+    height: auto;
+    color: rgb(179, 22, 103);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+.sentence {
+    color: rgb(0, 150, 159);
+}
+.message_2 {
+    line-height: 30px;
+}
+body {
+    /* margin: 100px auto; */
+}
+
+/* li:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    /* width: 10%; */
+
+/* min-width: 50px; */
+
+}
+li:hover {
+    color: #F7CB4D;
+    border-bottom: 2px solid #F7CB4D;
+}
+.website_flow {
+    height: 1200px;
+}
+.website_flow_ttl {
+    text-align: center;
+}
+.flow {
+    display: flex;
+    justify-content: center;
+}
+.flow-image-1 {
+    border-radius: 50%;
+    padding: 0px 50px;
+}
+.flow-content-1 {
+    background: #5CF357;
+    width: 50%;
+    /* height:100px; */
+    text-align: center;
+    border: 1px solid #eee;
+}
+.flow-content-1-1 {
+    font-size: 15px;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+.flow-content-1-1-p {
+    vertical-align: middle;
+    text-align: center;
+}
+.flow-content-1-2 {
+    background: white;
+    text-align: center;
+    border: 1px solid #eee;
+}
+.company_ttl {
+    padding: left 3.1rem;
+}
+.company_heading {
+    text-align: left;
+    color: rgb(179, 22, 103);
+    font-family: 'Short Stack',
+    cursive;
+    padding: 1.8rem 0rem 0.6rem 4.3rem;
+    display: block;
+}
+.company_content {
+    font-size: 1.25rem;
+    padding: 0.6rem 0rem 0.6rem 4.3rem;
+}
+.company_container {
+    padding: 20px 0px 10px 50px;
+    display: flex;
+    justify-content: center;
+}
+.company_ttl {
+    width: 70%;
+    /* margin: 10px; */
+    padding: 0px 50px 10px 0px;
+}
+.about_img {
+    width: 30%;
+}
+.profile_img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+#company {
+    height: 750px;
+    margin: 0 auto;
+}
+#company .section-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+#company .contain {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+#company table tr {
+    border: 1px solid #333333;
+}
+#company th,
+#company td {
+    text-align: left;
+    padding: 10px;
+}
+#company th {
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-right: 1px solid;
+}
+
+/* お問い合わせ */
+.inquiry {
+    /* height: 350px; */
+    margin: 50px 0px 0px 0px;
+    height: 200px;
+    background: center;
+    width: auto;
+    display: block;
+    background-size: cover;
+    background-image: url("../img/inquiry.jpg");
+    /* background-size: 200px 100px; */
+    /* back back background-repeat: no-repeat; */
+    /* height: 200px; */
+}
+.inquiry-contents {
+    background-color: rgba(0,
+    0,
+    0,
+    0.4);
+    height: 200px;
+}
+.inquiry::after {
+    background-color: black;
+    opacity: 0.5;
+    display: block
+}
+.inquiry-contents p {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    color: white;
+}
+.plactice__btn {
+    position: relative;
+    background: #FF8C00;
+    width: 250px;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 60px;
+    margin: 0px auto;
+    box-shadow: 0px 10px 3px #92897e;
+}
+.footer {
+    text-align: center;
+    height: 250px;
+    /* line-height: 30px; */
+    font-size: 10.5px;
+    background: #F8F7F6;
+}
+.footer_company {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+}
+.footer-address {
+    font-size: 8px;
+    padding: 20px;
+}
+.footer_logo {
+    margin: 0px 15px;
+}
+.footer_companyname {
+    background: black;
+    width: 220px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    margin: 0px 15px;
+}
+.footer_li {
+    list-style: none;
+    display: inline-block;
+    /* text-decoration: none; */
+    /* width: 10%; */
+}
+.footer_li a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+.copyright {
+    vertical-align: bottom;
+}
