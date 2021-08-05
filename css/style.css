@@ -271,9 +271,6 @@ select {
     font-size: 20px;
     line-height: 30px;
 }
-.sentence {
-    color: rgb(0, 150, 159);
-}
 .message_2 {
     line-height: 30px;
 }
@@ -296,8 +293,23 @@ li:hover {
     color: #F7CB4D;
     border-bottom: 2px solid #F7CB4D;
 }
+.website-flow-new {
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.flow-image-new {
+    width: 250px;
+}
+.flow-content-new {
+    width: 600px;
+}
+
+/* ----------------------- */
 .website_flow {
-    height: 1200px;
+    height: 2000px;
+    background: #E9F6FF;
 }
 .website_flow_ttl {
     text-align: center;
@@ -309,18 +321,22 @@ li:hover {
 .flow-image-1 {
     border-radius: 50%;
     padding: 0px 50px;
+    background-size: cover;
+    background-position: center;
 }
 .flow-content-1 {
     background: #5CF357;
-    width: 50%;
+    width: 600px;
     /* height:100px; */
     text-align: center;
     border: 1px solid #eee;
+    /* min-width:30%; */
 }
 .flow-content-1-1 {
     font-size: 15px;
-    height: 40px;
+    /* height: 40px; */
     vertical-align: middle;
+    line-height: 40px;
     text-align: center;
 }
 .flow-content-1-1-p {
@@ -332,8 +348,26 @@ li:hover {
     text-align: center;
     border: 1px solid #eee;
 }
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 60px solid yellow;
+    margin-top: 20px;
+    text-align: center;
+    background: none;
+}
+.tbl_bdr {}
+
+/* .tbl-bdr {
+    border-collapse: collapse;
+    border: 1px solid #333;
+} */
 .company_ttl {
     padding: left 3.1rem;
+    width: 70%;
+    padding: 0px 50px 10px 0px;
 }
 .company_heading {
     text-align: left;
@@ -352,11 +386,6 @@ li:hover {
     display: flex;
     justify-content: center;
 }
-.company_ttl {
-    width: 70%;
-    /* margin: 10px; */
-    padding: 0px 50px 10px 0px;
-}
 .about_img {
     width: 30%;
 }
@@ -368,30 +397,26 @@ li:hover {
     height: 750px;
     margin: 0 auto;
 }
-#company .section-title {
+
+/* #company .section-title {
     font-size: 30px;
     font-weight: bold;
     margin: 20px 0;
     text-align: center;
-}
-#company .contain {
+} */
+.tbl_bdr {
+    border: 1px solid #333333;
     border-collapse: collapse;
     width: 80%;
     margin: 0 auto;
 }
-#company table tr {
+
+/* #company .contain {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
     border: 1px solid #333333;
-}
-#company th,
-#company td {
-    text-align: left;
-    padding: 10px;
-}
-#company th {
-    padding: 20px;
-    background-color: rgb(245, 245, 245);
-    border-right: 1px solid;
-}
+} */
 
 /* お問い合わせ */
 .inquiry {
