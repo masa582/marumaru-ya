@@ -274,21 +274,6 @@ select {
 .message_2 {
     line-height: 30px;
 }
-body {
-    /* margin: 100px auto; */
-}
-
-/* li:not(:last-child) {
-    border-right: 1px solid #ddd;
-}
-li {
-    list-style: none;
-    display: inline-block;
-    /* width: 10%; */
-
-/* min-width: 50px; */
-
-}
 li:hover {
     color: #F7CB4D;
     border-bottom: 2px solid #F7CB4D;
@@ -328,6 +313,7 @@ li:hover {
     background: #5CF357;
     width: 600px;
     /* height:100px; */
+    
     text-align: center;
     border: 1px solid #eee;
     /* min-width:30%; */
@@ -335,6 +321,7 @@ li:hover {
 .flow-content-1-1 {
     font-size: 15px;
     /* height: 40px; */
+    
     vertical-align: middle;
     line-height: 40px;
     text-align: center;
@@ -358,12 +345,12 @@ li:hover {
     text-align: center;
     background: none;
 }
-.tbl_bdr {}
 
-/* .tbl-bdr {
-    border-collapse: collapse;
-    border: 1px solid #333;
-} */
+/* comapny info */
+#company {
+    height: 750px;
+    margin: 0 auto;
+}
 .company_ttl {
     padding: left 3.1rem;
     width: 70%;
@@ -372,8 +359,7 @@ li:hover {
 .company_heading {
     text-align: left;
     color: rgb(179, 22, 103);
-    font-family: 'Short Stack',
-    cursive;
+    font-family: 'Short Stack', cursive;
     padding: 1.8rem 0rem 0.6rem 4.3rem;
     display: block;
 }
@@ -393,34 +379,32 @@ li:hover {
     border-radius: 50%;
     object-fit: cover;
 }
-#company {
-    height: 750px;
-    margin: 0 auto;
-}
-
-/* #company .section-title {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 20px 0;
+.tbl_container {
+    width: 80%;
     text-align: center;
-} */
-.tbl_bdr {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.tbl_bdr tr {
     border: 1px solid #333333;
     border-collapse: collapse;
     width: 80%;
     margin: 0 auto;
 }
-
-/* #company .contain {
-    border-collapse: collapse;
-    width: 80%;
-    margin: 0 auto;
+table th {
+    padding: 10px;
+    width: 150px;
+}
+table td {
     border: 1px solid #333333;
-} */
+    border-collapse: collapse;
+    padding: 10px;
+}
 
 /* お問い合わせ */
 .inquiry {
     /* height: 350px; */
+    
     margin: 50px 0px 0px 0px;
     height: 200px;
     background: center;
@@ -433,10 +417,7 @@ li:hover {
     /* height: 200px; */
 }
 .inquiry-contents {
-    background-color: rgba(0,
-    0,
-    0,
-    0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     height: 200px;
 }
 .inquiry::after {
@@ -471,6 +452,7 @@ li:hover {
     text-align: center;
     height: 250px;
     /* line-height: 30px; */
+    
     font-size: 10.5px;
     background: #F8F7F6;
 }
