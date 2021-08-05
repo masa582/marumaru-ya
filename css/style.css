@@ -287,6 +287,8 @@ li:hover {
 .flow-image-new {
     width: 300px;
     text-align: center;
+    display: flex;
+    flex-flow: column;
 }
 .flow-content-new {
     width: 50%;
